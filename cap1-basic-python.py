@@ -78,3 +78,36 @@ TypeError: can't multiply sequence by non-int of type 'float'
 
 
 ## ARMAZENANDO VALORES EM VARIÁVEIS
+
+Uma variável é como uma caixa na memória do computador, em que podemos armazenar um único valor. Se quiser usar posteriormente o resultado de uma expressão avaliada em seu programa, você poderá salvá-la em uma variável.
+
+# Instruções de atribuição
+
+Valores são armazenados em variáveis por meio de uma instruçaõ de atribuição. Uma instrução de atribuição consiste de um nome de variável, um sinal de igualdade (chamado de atribuição) e o valor a ser armazenado. Se a instrução de atribuição 'spam = 42' for especificada, a variável chamada spam conterá o valor inteiro 42.
+Pense em uma variável como uma caixa etiquetada em que um valor é inserido.
+
+
+                  ------------
+               /    42     /|
+               ------------ |
+              |           | |
+              |           | |
+              |           | /
+               ------------/
+
+# Nomes de variáveis
+
+A tabela a seguir apresenta exmeplos de nomes permitidos para variáveis. Você pode dar qualquer nome a uma variável desde que ela obedeça às três regras a seguir:
+    1. O nome pode ser constituido somente de uma palavra.
+    2. Somente letras, números e o caractere underscore (_) podem ser usados.
+    3. O nome não pode começar com um número.
+Há distinção entre letras maiúsculas e minúsculas nos nomes de variáveis (são case sensitive); isso quer dizer que spam, SPAM, Spam e sPaM são quatro variáveis diferentes. Iniciar as variáveis com uma letra minúscula é uma convenção do Python.
+--------------------------------------------
+Nomes válidos de variáveis  nomes inválidos de variáveis
+--------------------------------------------------
+balance                     current-balance(hífens não são permitidos)
+currentBalance              current balance (espaços não são permitidos)
+current_balance             4account (não pode começar com um número)
+_spam                       42 (não pode começar com um número)
+sPaM                        total_$um (caracteres especiais não são permitidos)
+account4                    'hello' (caracteres especiais ' não são permitidos')
